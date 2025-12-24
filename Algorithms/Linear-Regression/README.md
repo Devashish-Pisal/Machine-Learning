@@ -12,3 +12,7 @@ This directory implements a **Linear Regression** model to predict housing price
 | **Data Split**     | 80% Training, 20% Testing     |
 | **Loss Function**  | Mean Squared Error (MSE)      |
 | **Convergence**    | Loss: 0.55 (after 1000 epochs)|
+
+## TODO
+1. Use Early stopping in training loop to save time and avoid overfitting. 
+2. Experiment with different optimizers and learning rates.
