@@ -4,6 +4,8 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.preprocessing import StandardScaler
+import torchviz
+from torchsummary import summary
 
 # Load the dataset
 housing = fetch_california_housing()
@@ -40,8 +42,8 @@ class LinearRegressionModel(torch.nn.Module):
 model = LinearRegressionModel()
 
 # Define loss function and optimizer
-loss_function = torch.nn.MSELoss(size_average = True)
-optimizer = torch.optim.SGD(model.parameters(), lr = 0.01)
+loss_function = torch.nn.MSELoss(size_average = True) # Mean squared error
+optimizer = torch.optim.SGD(model.parameters(), lr = 0.01) # Stochastic Gradient Descent
 
 # Do computations on cuda (if installed)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -92,3 +94,11 @@ plt.xlabel('Actual Values')
 plt.ylabel('Predicted Values')
 plt.title('Predicted vs Actual Values')
 plt.show()
+
+
+# Visualize the backpropagation control flow
+dummy_input = torch.randn(1, 8).to(device)
+torchviz.make_dot(model(dummy_input), params=dict(model.named_parameters())).render("linear_regression_backward-pass", format="png")
+
+# Print the model summary
+print(summary(model, (8,)))

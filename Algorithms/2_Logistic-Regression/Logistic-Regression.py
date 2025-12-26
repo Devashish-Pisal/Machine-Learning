@@ -3,9 +3,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import os
+import torchviz
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
+from torchsummary import summary
 from sklearn.preprocessing import StandardScaler
 
 # Find the dataset file path
@@ -106,3 +108,16 @@ with torch.no_grad():
     print(f'Spam message confidence (> 0.5): {output1.item():.2F}')
     print(f'Ham message confidence (< 0.5) : {output2.item():.2F}')
     print('================================================')
+
+
+
+
+# Visualize the backpropagation control flow
+dummy_spam_msg = "Congratulations you have been selected for an exclusive offer claim your reward now today online"
+dummy_spam_msg_vec = vectorizer.transform([spam_msg])
+dummy_spam_msg_tensor = torch.tensor(spam_msg_vec.toarray(), dtype=torch.float32)
+dummy_spam_msg_tensor = dummy_spam_msg_tensor.to(device)
+torchviz.make_dot(model(dummy_spam_msg_tensor), params=dict(model.named_parameters())).render("logistic_regression_backward-pass", format="png")
+
+# Print the model summary
+print(summary(model, dummy_spam_msg_tensor.shape))

@@ -3,6 +3,19 @@
 ## Overview
 This directory implements a **Linear Regression** model to predict housing prices using the **California Housing Dataset**. The model is trained to minimize the **Mean Squared Error (MSE)** loss, achieving convergence at a loss of **0.55** after **1000 epochs**.
 
+
+## Model Architecture
+The model consists of a **single linear layer** that maps 8 input features to 1 output.
+
+### Diagram
+
+TODO
+
+### Output Formula
+
+TODO
+
+
 ## Key Details
 
 | Parameter          | Value                        |
