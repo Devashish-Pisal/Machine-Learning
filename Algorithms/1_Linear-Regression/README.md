@@ -18,15 +18,16 @@ TODO
 
 ## Key Details
 
-| Parameter         | Value                          |
-|-------------------|--------------------------------|
-| **Algorithm**     | Linear Regression              |
-| **Model Type**    | Linear Model                   |
-| **Learning Type** | Supervised Learning            |
-| **Dataset**       | California Housing Dataset     |
-| **Data Split**    | 80% Training, 20% Testing      |
-| **Loss Function** | Mean Squared Error (MSE)       |
-| **Convergence**   | Loss: 0.55 (after 1000 epochs) |
+| Parameter               | Value                          |
+|-------------------------|--------------------------------|
+| **Algorithm**           | Linear Regression              |
+| **Model Type**          | Linear Model                   |
+| **Learning Type**       | Supervised Learning            |
+| **Dataset**             | California Housing Dataset     |
+| **Data Split**          | 80% Training, 20% Testing      |
+| **Activation Function** | Layer 1 - N/A                  |
+| **Loss Function**       | Mean Squared Error (MSE)       |
+| **Convergence**         | Loss: 0.55 (after 1000 epochs) |
 
 ## TODO
 1. Use Early stopping in training loop to save time and avoid overfitting. 

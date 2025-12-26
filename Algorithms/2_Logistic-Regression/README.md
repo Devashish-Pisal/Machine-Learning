@@ -21,10 +21,10 @@ TODO
 | **Learning Type**          | Supervised Learning                  |
 | **Dataset**                | SMS Spam Collection Dataset - Kaggle |
 | **Data Split**             | 80% Training, 20% Testing            |
-| **Activation Function**    | Sigmoid                              |
+| **Activation Function**    | Layer 1 - Sigmoid                    |
 | **Loss Function**          | Binary Class Entropy                 |
 | **Train-Loss Convergence** | 0.15 (after 1000 epochs)             |
-| **Test Loss**              | 0.19                                 |
+| **Test Loss**              | **0.19**                             |
 
 
 ## TODO

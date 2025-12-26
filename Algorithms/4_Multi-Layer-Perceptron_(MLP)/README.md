@@ -21,10 +21,10 @@ TODO
 | **Learning Type**          | Supervised Learning                         |
 | **Dataset**                | MNIST Dataset                               |
 | **Data Split**             | 60000 Training Images, 10000 Testing Images |
-| **Activation Function**    | Layer 1/2/3 : ReLu                          |
+| **Activation Function**    | Layer 1 & 2 - ReLu                          |
 | **Loss Function**          | Cross-Entropy Loss                          |
 | **Train-Loss Convergence** | 0.008 (after 20 epochs)                     |
-| **Test Dataset Accuracy**  | 97.50 %                                     |
+| **Test Dataset Accuracy**  | **97.50 %**                                 |
 
 
 ## TODO
