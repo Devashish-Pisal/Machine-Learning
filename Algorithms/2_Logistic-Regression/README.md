@@ -14,15 +14,17 @@ TODO
 
 ## Key Details
 
-| Parameter                 | Value                            |
-|---------------------------|----------------------------------|
-| **Algorithm**             | Logistic Regression              |
-| **Learning Type**         | Supervised Learning              |
-| **Dataset**               | SMS Spam Collection Dataset - Kaggle |
-| **Data Split**            | 80% Training, 20% Testing        |
-| **Loss Function**         | Binary Class Entropy             |
-| **Train-Loss Convergence** | 0.15 (after 1000 epochs)         |
-| **Test Loss**             | 0.19                             |
+| Parameter                  | Value                                |
+|----------------------------|--------------------------------------|
+| **Algorithm**              | Logistic Regression                  |
+| **Model Type**             | Linear Model                         |
+| **Learning Type**          | Supervised Learning                  |
+| **Dataset**                | SMS Spam Collection Dataset - Kaggle |
+| **Data Split**             | 80% Training, 20% Testing            |
+| **Activation Function**    | Sigmoid                              |
+| **Loss Function**          | Binary Class Entropy                 |
+| **Train-Loss Convergence** | 0.15 (after 1000 epochs)             |
+| **Test Loss**              | 0.19                                 |
 
 
 ## TODO

@@ -21,6 +21,7 @@ TODO
 | Parameter         | Value                          |
 |-------------------|--------------------------------|
 | **Algorithm**     | Linear Regression              |
+| **Model Type**    | Linear Model                   |
 | **Learning Type** | Supervised Learning            |
 | **Dataset**       | California Housing Dataset     |
 | **Data Split**    | 80% Training, 20% Testing      |
