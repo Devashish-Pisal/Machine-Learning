@@ -137,9 +137,12 @@ with torch.no_grad():
     print(f"Predicted Label: {prediction.item()}")
     print(f"Actual Label: {label}")
 
-    actual_image = Image.open("7_Manual-Testing.png")
+    actual_image = Image.open("1_Manual-Testing_Black-Background.jpg")
+    # actual_image.show("Original image")
     actual_image = actual_image.convert("L") # Convert to gray-scale
+    # actual_image.show("Grayscale image")
     actual_image = actual_image.resize((28,28)) # Resize to 28*28 pixels
+    # actual_image.show("Resized image")
     actual_image_tensor = transform(actual_image) # Transform image to tensor
     actual_image_flat = actual_image_tensor.view(1,-1).to(device) # Flatten the image and shift to GPU
     prediction_2 = model(actual_image_flat)
