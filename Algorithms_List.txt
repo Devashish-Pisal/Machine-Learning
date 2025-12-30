@@ -1,0 +1,42 @@
+Must Know How to Implement:
+
+1.Linear Regression
+2.Logistic Regression
+3.k-Nearest Neighbors (KNN)
+4.Naive Bayes
+5.Support Vector Machine (Linear)
+6.Decision Tree
+7.Random Forest
+8.K-Means Clustering
+9.Principal Component Analysis (PCA)
+10.Multilayer Perceptron (MLP)
+11.Convolutional Neural Network (CNN)
+12.Recurrent Neural Network (RNN)
+13.Long Short-Term Memory (LSTM)
+
+
+=================================================================================================================
+
+Must Be Aware of the Theory:
+
+1.Kernel Support Vector Machine
+2.Gradient Boosting Machines
+3.AdaBoost
+4.Hierarchical Clustering
+5.DBSCAN
+6.t-SNE
+7.UMAP
+8.Batch Normalization
+9.Dropout
+10.Autoencoder
+11.Variational Autoencoder (VAE)
+12.Generative Adversarial Network (GAN)
+13.Transformer
+14.BERT
+15.GPT
+16.Markov Decision Process (MDP)
+17.Q-Learning
+18.Deep Q-Network (DQN)
+
+
+=================================================================================================================
