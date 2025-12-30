@@ -1,0 +1,8 @@
+Questions:
+
+
+1.How to choose correct loss function/ Optmizer/ Activation functions? Is there any rule?
+2.How to decide the number of layers and number of neuron in neural networks?
+
+
+===================================================================================================
