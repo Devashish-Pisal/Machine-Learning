@@ -1,2 +1,7 @@
 # Ignore the .idea folder
 .idea
+
+
+# Datset set is too big (GitHub doesn't allow)
+Datasets/cifar-100-python/
+cifar-100-python.tar.gz
