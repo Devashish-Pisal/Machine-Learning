@@ -147,7 +147,7 @@ device = torch.device("cuda" if torch.cuda.is_available else "cpu")
 model = model.to(device)
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=0.001)
-epochs = 5
+epochs = 200
 
 # Store training and validation loss
 training_loss = []
