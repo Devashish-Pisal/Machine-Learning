@@ -17,7 +17,7 @@ TODO
 | Parameter                  | Value                                       |
 |----------------------------|---------------------------------------------|
 | **Algorithm**              | Multi-Layer Perceptron                      |
-| **Model Type**             | Feedforward Network                         |
+| **Network Type**           | Feedforward Network                         |
 | **Learning Type**          | Supervised Learning                         |
 | **Dataset**                | MNIST Dataset                               |
 | **Data Split**             | 60000 Training Images, 10000 Testing Images |
@@ -28,5 +28,6 @@ TODO
 
 
 ## TODO
-1. Add model visualization code using torchviz.
-2. Add model summary code.
+1. Add Early stopping 
+2. Add model visualization code using torchviz. 
+3. Add model summary code.
