@@ -1,7 +1,8 @@
-# Ignore the .idea folder
+# Ignore the .idea and cache folders
 .idea
-
+Algorithms/11_Convolutional-Neural-Network/__pycache__/
 
 # Datset set is too big (GitHub doesn't allow)
 Datasets/cifar-100-python/
 cifar-100-python.tar.gz
+
