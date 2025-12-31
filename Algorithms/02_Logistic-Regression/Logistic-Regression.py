@@ -11,7 +11,7 @@ from torchsummary import summary
 from sklearn.preprocessing import StandardScaler
 
 # Find the dataset file path
-cwd = os.getcwd() # current working directory --> 2_Logistic-Regression
+cwd = os.getcwd() # current working directory --> 02_Logistic-Regression
 parent1_wd = os.path.dirname(cwd) # Parent directory of current directory --> Algorithms
 parent2_wd = os.path.dirname(parent1_wd) # --> Machine-Learning
 csv_path = os.path.join(parent2_wd, 'Datasets', 'spam.csv')
