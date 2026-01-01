@@ -13,7 +13,7 @@ Must Know How to Implement:
 11.Convolutional Neural Network (CNN)
 12.Recurrent Neural Network (RNN)
 13.Long Short-Term Memory (LSTM)
-
+Optional: (ResNet)
 
 =================================================================================================================
 
